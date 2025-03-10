@@ -10,11 +10,8 @@ module FIFObuffer( Clk,
                    ); 
 
 input  Clk, 
-
        RD, 
-
        WR, 
-
        EN, 
 
        Rst;
