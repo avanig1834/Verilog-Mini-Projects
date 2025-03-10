@@ -1,0 +1,363 @@
+$date
+	Fri Mar 07 19:44:38 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module controller_tb $end
+$var wire 1 ! ldp $end
+$var wire 1 " ldb $end
+$var wire 1 # lda $end
+$var wire 1 $ eqz $end
+$var wire 1 % done $end
+$var wire 1 & decb $end
+$var wire 1 ' clrp $end
+$var reg 16 ( DataIn [15:0] $end
+$var reg 1 ) clk $end
+$var reg 1 * start $end
+$scope module CON $end
+$var wire 1 ) clk $end
+$var wire 1 * start $end
+$var wire 1 $ eqz $end
+$var parameter 3 + s0 $end
+$var parameter 3 , s1 $end
+$var parameter 3 - s2 $end
+$var parameter 3 . s3 $end
+$var parameter 3 / s4 $end
+$var reg 1 ' clrp $end
+$var reg 1 & decb $end
+$var reg 1 % done $end
+$var reg 1 # lda $end
+$var reg 1 " ldb $end
+$var reg 1 ! ldp $end
+$var reg 3 0 state [2:0] $end
+$upscope $end
+$scope module DP $end
+$var wire 16 1 DataIn [15:0] $end
+$var wire 16 2 bus [15:0] $end
+$var wire 1 ) clk $end
+$var wire 1 ' clrp $end
+$var wire 1 & decb $end
+$var wire 1 # lda $end
+$var wire 1 " ldb $end
+$var wire 1 ! ldp $end
+$var wire 1 $ eqz $end
+$var wire 16 3 C [15:0] $end
+$var wire 16 4 Bout [15:0] $end
+$var wire 16 5 B [15:0] $end
+$var wire 16 6 A [15:0] $end
+$scope module a $end
+$var wire 1 ) clk $end
+$var wire 16 7 din [15:0] $end
+$var wire 1 # ld $end
+$var reg 16 8 dout [15:0] $end
+$upscope $end
+$scope module ad $end
+$var wire 16 9 in1 [15:0] $end
+$var wire 16 : in2 [15:0] $end
+$var reg 16 ; out [15:0] $end
+$upscope $end
+$scope module b $end
+$var wire 1 ) clk $end
+$var wire 1 & dec $end
+$var wire 16 < din [15:0] $end
+$var wire 1 " ld $end
+$var reg 16 = dout [15:0] $end
+$upscope $end
+$scope module eq $end
+$var wire 16 > data [15:0] $end
+$var wire 1 $ eqz $end
+$upscope $end
+$scope module p $end
+$var wire 1 ) clk $end
+$var wire 1 ' clr $end
+$var wire 16 ? din [15:0] $end
+$var wire 1 ! ld $end
+$var reg 16 @ dout [15:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b100 /
+b11 .
+b10 -
+b1 ,
+b0 +
+$end
+#0
+$dumpvars
+bx @
+bx ?
+bx >
+bx =
+bz <
+bx ;
+bx :
+bx 9
+bx 8
+bz 7
+bx 6
+bx 5
+bx 4
+bx 3
+bz 2
+bx 1
+b0 0
+x*
+0)
+bx (
+x'
+x&
+x%
+x$
+x#
+x"
+x!
+$end
+#1
+0&
+0'
+0!
+0"
+0#
+#3
+1*
+#5
+b1 0
+1)
+#6
+1#
+#10
+0)
+b10001 (
+b10001 1
+#15
+b10 0
+bz 6
+bz 8
+bz 9
+1)
+#16
+1'
+1"
+0#
+#20
+0)
+b101 (
+b101 1
+#25
+b0 5
+b0 :
+b0 @
+bz 4
+bz =
+bz >
+b11 0
+1)
+#26
+1&
+0'
+1!
+0"
+#30
+0)
+#35
+bx 4
+bx =
+bx >
+bx 5
+bx :
+bx @
+1)
+#40
+0)
+#45
+1)
+#50
+0)
+#55
+1)
+#60
+0)
+#65
+1)
+#70
+0)
+#75
+1)
+#80
+0)
+#85
+1)
+#90
+0)
+#95
+1)
+#100
+0)
+#105
+1)
+#110
+0)
+#115
+1)
+#120
+0)
+#125
+1)
+#130
+0)
+#135
+1)
+#140
+0)
+#145
+1)
+#150
+0)
+#155
+1)
+#160
+0)
+#165
+1)
+#170
+0)
+#175
+1)
+#180
+0)
+#185
+1)
+#190
+0)
+#195
+1)
+#200
+0)
+#205
+1)
+#210
+0)
+#215
+1)
+#220
+0)
+#225
+1)
+#230
+0)
+#235
+1)
+#240
+0)
+#245
+1)
+#250
+0)
+#255
+1)
+#260
+0)
+#265
+1)
+#270
+0)
+#275
+1)
+#280
+0)
+#285
+1)
+#290
+0)
+#295
+1)
+#300
+0)
+#305
+1)
+#310
+0)
+#315
+1)
+#320
+0)
+#325
+1)
+#330
+0)
+#335
+1)
+#340
+0)
+#345
+1)
+#350
+0)
+#355
+1)
+#360
+0)
+#365
+1)
+#370
+0)
+#375
+1)
+#380
+0)
+#385
+1)
+#390
+0)
+#395
+1)
+#400
+0)
+#405
+1)
+#410
+0)
+#415
+1)
+#420
+0)
+#425
+1)
+#430
+0)
+#435
+1)
+#440
+0)
+#445
+1)
+#450
+0)
+#455
+1)
+#460
+0)
+#465
+1)
+#470
+0)
+#475
+1)
+#480
+0)
+#485
+1)
+#490
+0)
+#495
+1)
+#500
+0)
+#503
