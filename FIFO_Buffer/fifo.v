@@ -1,21 +1,12 @@
 module FIFObuffer( Clk, 
-
                    dataIn, 
-
                    RD, 
-
                    WR, 
-
                    EN, 
-
                    dataOut, 
-
                    Rst,
-
                    EMPTY, 
-
                    FULL 
-
                    ); 
 
 input  Clk, 
