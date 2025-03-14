@@ -4,7 +4,7 @@ A 32 x 8 fifo buffer is implemented using verilog. It is a 2D array of 32 bit wo
 
 ## WORKING 
 It consists of the following components:-
-### Read and Write -
+
 - ```rd``` : When ```rd``` is (high) 1, then data is read from the registers and displayed in output. \
 - ```wr``` : When ```wr``` is (high) 1, then data is written into the specific location og the register. \
 - ```readCounter``` and ```writeCounter``` : These are 3-bit registers used to keep track of read and write operations. \
