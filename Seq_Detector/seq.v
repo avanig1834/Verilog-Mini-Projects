@@ -4,12 +4,12 @@ input in, clk, rst;
 output reg out;
 parameter s0=0, s1=1, s2=2, s3=3;
 reg [0:1] ps, ns;
-
+// 
 always @(posedge clk or posedge rst)
     if(rst)
         ps<=s0;
     else
-        ps<=ns;
+      ps<=ns;
 always @(ps, in)
     case(ps)
         s0: begin
